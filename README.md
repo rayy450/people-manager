@@ -1,16 +1,37 @@
-# React + Vite
+# People Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack CRUD application built with **React** and **FastAPI** for managing users.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Registration & Login
+- JWT Authentication
+- Password Hashing (bcrypt)
+- CRUD Operations
+- File Upload with Validation
+- Email Notifications
+- Pagination
+- REST API Documentation (Swagger)
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend:** React, JavaScript, HTML, CSS, Bootstrap
 
-## Expanding the ESLint configuration
+**Backend:** FastAPI, Python, SQLModel, SQLite, JWT, OAuth2
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Locally
+
+```bash
+# Backend
+uvicorn api:app --reload
+
+# Frontend
+npm install
+npm run dev
+```
+
+## Author
+
+**rayy450**
+
+GitHub: https://github.com/rayy450
